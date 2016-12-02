@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#top {
+    padding: 20%;
+    text-align: center;
+    background-color: #231f20;
+    color: gainsboro;
+}
+
+.nav-reg {
+    transition: 400ms transform ease-in-out;
+    transform: translateX(-50px);
+}
+
+.nav-img {
+    width: 50px;
+    height: 50px;
+}
+
+#nav-logo {
+    transition: 400ms transform ease-in-out;
+}
+
+.nav-logo {
+    transform: translateX(-100px);
+}
+
+.feature-left-trans {
+    transform: translateX(-100px);
+}
+
+.feature-right-trans {
+    transform: translateX(100px);
+}
+
+.nav-reg-trans {
+    transform: translateX(10px);
+}
+
+.top-bar {
+  box-shadow: 0px 1px 10px black;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: gainsboro;
+}
+
+.navbar-default {
+    background-color: #231f20;
+    border-color: transparent;
+    height: 7.5%;
+    font-size: 150%;
+    color: gainsboro;
+}
+
+#top h1 {
+    font-size: 400%;
+    color: lightgrey;
+}
+/*
+.video-section {
+    position: relative;
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+}
+
+#video-elem {
+    width: 100%;
+}
+
+*Add this back to top if you go back
+
+.video-overlay {
+    padding: 20%;
+    text-align: center;
+}*/
+
+#beta-btn {
+    background-color: #e54413;
+    color: white;
+    padding: 30px 60px 30px 60px;
+    margin: 20px;
+}
+
+#features-btn {
+    background-color: #231f20;
+    color: white;
+    border: 1px solid lightgrey;
+    padding: 30px 60px 30px 60px;
+    margin: 20px;
+}
+
+.feature-img {
+
+}
+
+.feature-left {
+    transition: 1000ms transform ease-in-out;
+}
+
+.feature-right {
+
+}
+
+#splash-btns {
+    margin: 5%;
+}
+
+#splash-btns a,
+#splash-btns a:hover {
+    text-decoration: none;
+}
+
+#bar {
+    background-color: gainsboro;
+    height: 5%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#middle {
+    background-color: #F8F8F8;
+    text-align: center;
+    color: #231f20;
+    padding-top: 5%;
+}
+
+#team {
+    padding: 5%;
+}
+
+.row {
+    margin: 5% 5% 5% 5%;
+}
+
+.row div {
+    margin-bottom: 30px;
+}
+
+#features {
+    padding: px;
+}
+
+.small-img {
+    max-width: 10%;
+    max-height: 5%;
+}
+
+#footer {
+    background-color: gainsboro;
+    height: 30%;
+    text-align: center;
+    color: slategray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#footer a,
+#footer a:hover {
+    color: slategrey;
+    text-decoration: none;
+}
+
+#beta {
+    text-align: center;
+    background-color: #e54413;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+hr {
+    border-color: #231f20;
+}
+
+#mc-embedded-subscribe {
+    color: #231f20;
+}
+
+#mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin: 20px;
+}
+
+.video {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    z-index: 2;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+
+
+}
+
+
+/*
+orange #e54413
+black #231f20
+lighter gray  #F8F8F8
+darker gray gainsboro
+*/
