@@ -1,3 +1,4 @@
+//Short hand for document ready in jQuery
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -13,6 +14,7 @@ $(function() {
   });
 });
 
+//Allows for smooth scrolling when clicking links
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll != 0) {
