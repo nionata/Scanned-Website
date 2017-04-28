@@ -185,11 +185,21 @@ hr {
 }
 
 .footer-item-container {
-    padding: 100px;
+    padding: 10px;
+    height: 100px;
+    text-align: left;
 }
 
 .footer-item-body {
-    background-color: aqua;
+}
+
+.footer-item-body {
+    margin-top: 0px;
+}
+
+.mc-field-group {
+    margin: 0px;
+    padding: 0px;
 }
 
 .small-logo {
