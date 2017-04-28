@@ -17,14 +17,14 @@ $(function() {
 //Allows for smooth scrolling when clicking links
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll != 0) {
+    if (scroll > 800) {
         $("#nav").addClass("top-bar");
-        $(".nav-reg").addClass("nav-reg-trans");
+        $(".nav-reg").removeClass("hidden");
         $("#nav-logo").removeClass("nav-logo")
     } else {
         $("#nav").removeClass("top-bar");
-        $(".nav-reg").removeClass("nav-reg-trans")
-        $("#nav-logo").addClass("nav-logo")
+        $(".nav-reg").addClass("hidden");
+        $("#nav-logo").addClass("nav-logo");
     }
 
     if(scroll = 10000) {

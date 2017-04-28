@@ -4,10 +4,13 @@ body {
 }
 
 #top {
-    padding: 20%;
+    padding: 10%;
+    padding-top: 15%;
+    height: 100vh;
     text-align: center;
     background-color: #231f20;
     color: gainsboro;
+    background-image: url();
 }
 
 .nav-reg {
@@ -36,10 +39,6 @@ body {
     transform: translateX(100px);
 }
 
-.nav-reg-trans {
-    transform: translateX(10px);
-}
-
 .top-bar {
   box-shadow: 0px 1px 10px black;
 }
@@ -61,36 +60,18 @@ body {
     font-size: 400%;
     color: lightgrey;
 }
-/*
-.video-section {
-    position: relative;
-    width: 100%;
-    max-height: 550px;
-    overflow: hidden;
-}
-
-#video-elem {
-    width: 100%;
-}
-
-*Add this back to top if you go back
-
-.video-overlay {
-    padding: 20%;
-    text-align: center;
-}*/
-
-#beta-btn {
-    background-color: #e54413;
-    color: white;
-    padding: 30px 60px 30px 60px;
-    margin: 20px;
-}
 
 #features-btn {
     background-color: #231f20;
     color: white;
     border: 1px solid lightgrey;
+    padding: 30px 60px 30px 60px;
+    margin: 20px;
+}
+
+#beta-btn {
+    background-color: #e54413;
+    color: white;
     padding: 30px 60px 30px 60px;
     margin: 20px;
 }
@@ -158,6 +139,7 @@ body {
     color: slategray;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding: 0px;
 }
 
 #footer a,
@@ -166,27 +148,8 @@ body {
     text-decoration: none;
 }
 
-#beta {
-    text-align: center;
-    background-color: #e54413;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 hr {
     border-color: #231f20;
-}
-
-#mc-embedded-subscribe {
-    color: #231f20;
-}
-
-#mc_embed_signup {
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 100%;
-    margin: 20px;
 }
 
 .video {
@@ -201,6 +164,41 @@ hr {
 
 
 }
+
+.footer-item-container {
+    padding: 10px;
+    height: 100px;
+    text-align: left;
+}
+
+.footer-item-body {
+}
+
+.footer-item-body {
+    margin-top: 0px;
+}
+
+.mc-field-group {
+    margin: 0px;
+    padding: 0px;
+}
+
+.small-logo {
+    width: 30px;
+}
+
+.footer-social-media {
+    padding: 20px 15px 15px 15px;
+    background-color: slategray;
+}
+
+.footer-social-media i {
+    color: aliceblue;
+}
+
+
+
+
 
 
 /*
