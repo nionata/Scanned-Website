@@ -80,17 +80,17 @@ body {
     text-align: center;
 }*/
 
-#beta-btn {
-    background-color: #e54413;
-    color: white;
-    padding: 30px 60px 30px 60px;
-    margin: 20px;
-}
-
 #features-btn {
     background-color: #231f20;
     color: white;
     border: 1px solid lightgrey;
+    padding: 30px 60px 30px 60px;
+    margin: 20px;
+}
+
+#beta-btn {
+    background-color: #e54413;
+    color: white;
     padding: 30px 60px 30px 60px;
     margin: 20px;
 }
@@ -158,6 +158,7 @@ body {
     color: slategray;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding: 0px;
 }
 
 #footer a,
@@ -166,27 +167,8 @@ body {
     text-decoration: none;
 }
 
-#beta {
-    text-align: center;
-    background-color: #e54413;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 hr {
     border-color: #231f20;
-}
-
-#mc-embedded-subscribe {
-    color: #231f20;
-}
-
-#mc_embed_signup {
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 100%;
-    margin: 20px;
 }
 
 .video {
@@ -200,6 +182,18 @@ hr {
     height: auto;
 
 
+}
+
+.footer-item-container {
+    padding: 100px;
+}
+
+.footer-item-body {
+    background-color: aqua;
+}
+
+.small-logo {
+    width: 30px;
 }
 
 
