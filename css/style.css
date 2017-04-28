@@ -206,6 +206,19 @@ hr {
     width: 30px;
 }
 
+.footer-social-media {
+    padding: 20px 15px 15px 15px;
+    background-color: slategray;
+}
+
+.footer-social-media i {
+    color: aliceblue;
+}
+
+
+
+
+
 
 /*
 orange #e54413
