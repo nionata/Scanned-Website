@@ -19,11 +19,11 @@ $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 800) {
         $("#nav").addClass("top-bar");
-        $(".nav-reg").removeClass("hidden");
+        $(".nav-reg").slideDown();
         $("#nav-logo").removeClass("nav-logo")
     } else {
         $("#nav").removeClass("top-bar");
-        $(".nav-reg").addClass("hidden");
+        $(".nav-reg").slideUp();
         $("#nav-logo").addClass("nav-logo");
     }
 
