@@ -88,9 +88,17 @@ body {
 
 #testimonials {
     background-color: #231f20;
-    margin-bottom: 10vh;
     color: white;
     padding: 10px;
+}
+
+#testimonials-body {
+    margin-bottom: 5vh;
+}
+
+#testimonial-video {
+    width: 64vw;
+    height: 36vw;
 }
 
 

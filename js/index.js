@@ -13,27 +13,36 @@ $(function() {
     }
   });
 
-  $.getJSON("js/testimonials.js");
+  $.getJSON("https://jsonblob.com/api/jsonBlob/ffc80ef0-2f66-11e7-ae4c-4766b1558729", function(json) {
 
-  var names = ["Skipper", "Reggin", "Swagger"];
-  var quote = ["I love scanned app because it makes this so easy!", "Swagger asdf asd ", "asdfasda sdf asd"];
-  var organization = ["Disc Golf President", "FBLA President", "NHS President"];
-  var role = ["Disc Golf President", "FBLA President", "NHS President"];
+      var numberOfTestimonials = Object.keys(json).length;
+      var index = 0;
 
-  var i = 0;
-
-  setInterval(function() {
-      $("#testimonial-quote").text(quote[i]);
-      $("#testimonial-name").text(names[i]);
-      $("#testimonial-organization").text(organization[i] + ", ");
-      $("#testimonial-role").text(role[i]);
-
-      i++;
-
-      if(i == names.length) {
-          i = 0;
+      var i = 0;
+      while(i < numberOfTestimonials - 1) {
+          var $newElement = $("<i class="fa fa-circle" id="testimonial-circle"></i>");
+          console.log("skipp");
+          $("#testimonials-count").append($newElement);
+          i++;
       }
-  }, 5000);
+
+      newTestimonial()
+
+      setInterval(newTestimonial, 5000);
+
+      function newTestimonial() {
+          $("#testimonial-quote").text(json[index].quote);
+          $("#testimonial-name").text(json[index].name);
+          $("#testimonial-organization").text(json[index].organization + ", ");
+          $("#testimonial-role").text(json[index].role);
+
+          index++;
+
+          if(index == numberOfTestimonials) {
+              index = 0;
+          }
+      }
+  });
 });
 
 //Allows for smooth scrolling when clicking links
