@@ -12,6 +12,28 @@ $(function() {
       }
     }
   });
+
+  $.getJSON("js/testimonials.js");
+
+  var names = ["Skipper", "Reggin", "Swagger"];
+  var quote = ["I love scanned app because it makes this so easy!", "Swagger asdf asd ", "asdfasda sdf asd"];
+  var organization = ["Disc Golf President", "FBLA President", "NHS President"];
+  var role = ["Disc Golf President", "FBLA President", "NHS President"];
+
+  var i = 0;
+
+  setInterval(function() {
+      $("#testimonial-quote").text(quote[i]);
+      $("#testimonial-name").text(names[i]);
+      $("#testimonial-organization").text(organization[i] + ", ");
+      $("#testimonial-role").text(role[i]);
+
+      i++;
+
+      if(i == names.length) {
+          i = 0;
+      }
+  }, 5000);
 });
 
 //Allows for smooth scrolling when clicking links
