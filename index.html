@@ -35,13 +35,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="http://scanned-app.com/"><img id="nav-logo" src="http://res.cloudinary.com/dbfq6nas1/image/upload/v1479596726/logo_mmbdjj.png" class="nav-img nav-logo"></a>
+                <a href="#top"><img id="nav-logo" src="images/logo.png" class="nav-logo-trans"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav nav-reg navbar-right" hidden="true">
-                    <li><a href="#features" class="nav-me">Product</a></li>
-                    <li><a href="#beta" class="nav-me">Testimonials</a></li>
-                    <li><a href="#team" class="nav-me">Team</a></li>
+                <ul class="nav navbar-nav navbar-right" hidden="true" id="nav-info">
+                    <li><a href="#product" class="nav-me">Product</a></li>
+                    <li><a href="#video" class="nav-me">Video</a></li>
+                    <li><a href="#about" class="nav-me">About</a></li>
                 </ul>
             </div>
         </div>
@@ -49,62 +49,36 @@
     <div id="top" class="container-fluid animated fadeInUp">
         <h1>Efficient Attendance Tracking Today.</h1>
                 <h2>Scanned is the total package for stress free group management. We enable you to get back to what matters most.</h2>
-                <a href="#features">
-                    <button class="btn btn-lg" id="features-btn">Learn More</button>
+                <a href="#product">
+                    <button class="btn btn-lg" id="top-features-btn">Learn More</button>
                 </a>
                 <a href="#beta">
-                    <a href="http://eepurl.com/clBly5" target="_blank"><button class="btn btn-lg" id="beta-btn">Sign Up!</button></a>
+                    <a href="http://eepurl.com/clBly5" target="_blank"><button class="btn btn-lg" id="top-beta-btn">Sign Up!</button></a>
                 </a>
     </div>
     <div id="middle">
-        <div id="features" class="container-fluid">
-            <h1>Features</h1>
-            <div class="row feature-left feature-left-trans">
-                <div class="col-md-2 col-md-offset-2">
-                    <div class="feature">
-                        <img src="http://res.cloudinary.com/dbfq6nas1/image/upload/v1479596726/QR_code_md5s0j.png" class="img-responsive img-circle">
-                    </div>
+        <div id="product" class="container-fluid">
+            <div class="row">
+                <div class="col-md-6" id="product-left">
+                    <img src="images/preview-phones.png" class="img-responsive" alt="phones" id="product-img"/>
                 </div>
-                <div class="col-md-6">
-                    <div class="feature">
-                        <h3>Attendance that is available at your finger tips, and as quick as a scan!</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row feature-right feature-right-trans" style="transition: 2000ms transform ease-in-out">
-                <div class="col-md-6 col-md-offset-2">
-                    <div class="feature">
-                        <h3>Eliminate the never-ending check-in lines, and the post meeting work.</h3>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="feature">
-                        <img src="http://res.cloudinary.com/dbfq6nas1/image/upload/v1479596726/Clock_ab0knq.png" class="img-responsive img-circle">
-                    </div>
-                </div>
-            </div>
-            <div class="row feature-left feature-left-trans" style="transition: 3000ms transform ease-in-out">
-                <div class="col-md-2 col-md-offset-2">
-                    <div class="feature"> <img src="http://res.cloudinary.com/dbfq6nas1/image/upload/v1479596726/Calendar_q8lkvf.png" class="img-responsive img-circle"> </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="feature">
-                        <h3>Sync your calendar with the app to keep yourself updated on all the upcoming meetings!</h3> </div>
-                </div>
-            </div>
-            <div class="row feature-right feature-right-trans" style="transition: 4000ms transform ease-in-out">
-                <div class="col-md-6 col-md-offset-2">
-                    <div class="feature">
-                        <h3>After the meeting export your attedance information to a google sheet.</h3> </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="feature"> <img src="http://res.cloudinary.com/dbfq6nas1/image/upload/v1479596726/Excel_Graphic_vifor8.png" class="img-responsive img-circle"> </div>
+                <div class="col-md-6" id="product-right">
+                    <ul id="product-feature-list">
+                        <li class="product-feature-item">Attendance That Is Available At Your Finger Tips</li>
+                        <li class="product-feature-item">Eliminate the never-ending check-in lines, and the post meeting work</li>
+                        <li class="product-feature-item">Stay up-to-date with upcoming events for all your groups</li>
+                        <li class="product-feature-item">Groups are assigned a custom QR code that is used for both joining and signing into events</li>
+                        <li class="product-feature-item">Give members access to the QR code and administrative roles</li>
+                        <li class="product-feature-item">After an event, export your attendance data to an array of outlets</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <hr/>
-        <div id="team" class="container-fluid">
-            <h1 style="padding-bottom: 5%">Our Team</h1>
+        <div class="bar" id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jNVWhIk07xU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="about" class="container-fluid">
+            <h2>The Stars Behind the Scenes</h2>
             <div class="row">
                 <div class=" col-md-4 "> <img src="images/nick.JPG" class="img-responsive">
                     <h4>Nicholas Ionata</h4>
