@@ -1,46 +1,23 @@
+/*
+orange #e54413
+black #231f20
+lighter gray  #F8F8F8
+darker gray gainsboro
+*/
+
+/* Page Setup */
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Raleway, 'Helvetica Neue', 'Calibri Light', sans-serif;
 }
 
-#top {
-    padding: 10%;
-    padding-top: 15%;
-    height: 100vh;
-    text-align: center;
-    background-color: #231f20;
-    color: gainsboro;
-    background-image: url();
-}
 
-.nav-reg {
-    transition: 400ms transform ease-in-out;
-    transform: translateX(-50px);
-}
-
-.nav-img {
-    width: 50px;
-    height: 50px;
-}
-
+/* Navbar */
 #nav-logo {
     transition: 400ms transform ease-in-out;
-}
-
-.nav-logo {
-    transform: translateX(-100px);
-}
-
-.feature-left-trans {
-    transform: translateX(-100px);
-}
-
-.feature-right-trans {
-    transform: translateX(100px);
-}
-
-.top-bar {
-  box-shadow: 0px 1px 10px black;
+    width: 50px;
+    height: 50px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -51,9 +28,30 @@ body {
 .navbar-default {
     background-color: #231f20;
     border-color: transparent;
-    height: 7.5%;
     font-size: 150%;
     color: gainsboro;
+}
+
+
+/* Navbar Animations */
+.nav-logo-trans {
+    transform: translateX(-100px);
+}
+
+.nav-bar-shadow {
+  box-shadow: 0px 1px 10px black;
+}
+
+
+/* Top Section - Original View */
+#top {
+    padding: 10%;
+    padding-top: 15%;
+    height: 100vh;
+    text-align: center;
+    background-color: #231f20;
+    color: gainsboro;
+    background-image: url();
 }
 
 #top h1 {
@@ -61,77 +59,53 @@ body {
     color: lightgrey;
 }
 
-#features-btn {
+#top-features-btn {
     background-color: #231f20;
     color: white;
     border: 1px solid lightgrey;
-    padding: 30px 60px 30px 60px;
-    margin: 20px;
+    padding: 2vw 4vw 2vw 4vw;
+    margin: 1vw;
 }
 
-#beta-btn {
+#top-beta-btn {
     background-color: #e54413;
     color: white;
-    padding: 30px 60px 30px 60px;
-    margin: 20px;
+    padding: 2vw 4vw 2vw 4vw;
+    margin: 1vw;
 }
 
-.feature-img {
 
-}
-
-.feature-left {
-    transition: 1000ms transform ease-in-out;
-}
-
-.feature-right {
-
-}
-
-#splash-btns {
-    margin: 5%;
-}
-
-#splash-btns a,
-#splash-btns a:hover {
-    text-decoration: none;
-}
-
-#bar {
-    background-color: gainsboro;
-    height: 5%;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-}
-
+/* Middle */
 #middle {
     background-color: #F8F8F8;
     text-align: center;
     color: #231f20;
-    padding-top: 5%;
-}
-
-#team {
-    padding: 5%;
 }
 
 .row {
     margin: 5% 5% 5% 5%;
 }
 
-.row div {
-    margin-bottom: 30px;
+.bar {
+    background-color: #231f20;
+    margin-bottom: 10vh;
 }
 
-#features {
-    padding: px;
+
+/* Product */
+#product {
+    text-align: center;
 }
 
-.small-img {
-    max-width: 10%;
-    max-height: 5%;
+.product-feature-item {
+    text-align: left;
+    list-style-type: circle;
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
 }
 
+
+/* Footer */
 #footer {
     background-color: gainsboro;
     height: 30%;
@@ -148,30 +122,10 @@ body {
     text-decoration: none;
 }
 
-hr {
-    border-color: #231f20;
-}
-
-.video {
-    position: fixed;
-    top: 50%;
-    bottom: 50%;
-    z-index: 2;
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-
-
-}
-
 .footer-item-container {
     padding: 10px;
     height: 100px;
     text-align: left;
-}
-
-.footer-item-body {
 }
 
 .footer-item-body {
@@ -196,15 +150,3 @@ hr {
 .footer-social-media i {
     color: aliceblue;
 }
-
-
-
-
-
-
-/*
-orange #e54413
-black #231f20
-lighter gray  #F8F8F8
-darker gray gainsboro
-*/

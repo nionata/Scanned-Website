@@ -17,22 +17,19 @@ $(function() {
 //Allows for smooth scrolling when clicking links
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll > 800) {
-        $("#nav").addClass("top-bar");
-        $(".nav-reg").removeClass("hidden");
-        $("#nav-logo").removeClass("nav-logo")
-    } else {
-        $("#nav").removeClass("top-bar");
-        $(".nav-reg").addClass("hidden");
-        $("#nav-logo").addClass("nav-logo");
+    var windowHeight = $(window).height();
+
+    if(scroll > windowHeight / 2) {
+
     }
 
-    if(scroll = 10000) {
-        $(".feature-left").removeClass("feature-left-trans");
-        $(".feature-right").removeClass("feature-right-trans");
+    if (scroll > (windowHeight - 100)) {
+        $("#nav").addClass("nav-bar-shadow");
+        $("#nav-info").slideDown();
+        $("#nav-logo").removeClass("nav-logo-trans");
     } else {
-        $(".feature-left").addClass("feature-left-trans");
-        $(".feature-right").addClass("feature-right-trans");
+        $("#nav").removeClass("nav-bar-shadow");
+        $("#nav-info").slideUp();
+        $("#nav-logo").addClass("nav-logo-trans");
     }
-
 });
