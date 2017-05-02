@@ -20,19 +20,21 @@ $(window).scroll(function() {
     var windowHeight = $(window).height();
 
     if(scroll > windowHeight / 2) {
-        console.log("half")
+        $("#product-left").slideDown();
+    } else {
+        $("#product-left").slideUp();
     }
 
     if (scroll > (windowHeight - 100)) {
         $("#nav").addClass("nav-bar-shadow");
         $("#nav-info").slideDown();
         $("#nav-logo").removeClass("nav-logo-trans");
-        //$("#navbar-mobile-btns").slideDown();
-        console.log("skippy");
+        $("#product-right").slideDown();
     } else {
         $("#nav").removeClass("nav-bar-shadow");
         $("#nav-info").slideUp();
         $("#nav-logo").addClass("nav-logo-trans");
-        //$("#navbar-mobile-btns").slideUp();
+
+        $("#product-right").slideUp();
     }
 });
