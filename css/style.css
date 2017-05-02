@@ -12,6 +12,20 @@ body {
     font-family: Raleway, 'Helvetica Neue', 'Calibri Light', sans-serif;
 }
 
+.under-heading {
+    width: 5vw;
+    background-color: #231f20;
+    height: 5px;
+    margin-top: 0px;
+}
+
+.under-heading-white {
+    width: 5vw;
+    background-color: white;
+    height: 5px;
+    margin-top: 0px;
+}
+
 
 /* Navbar */
 #nav-logo {
@@ -86,21 +100,6 @@ body {
     margin: 5% 5% 5% 5%;
 }
 
-#testimonials {
-    background-color: #231f20;
-    color: white;
-    padding: 10px;
-}
-
-#testimonials-body {
-    margin-bottom: 5vh;
-}
-
-#testimonial-video {
-    width: 64vw;
-    height: 36vw;
-}
-
 
 /* Product */
 #product {
@@ -112,6 +111,54 @@ body {
     list-style-type: circle;
     font-size: 3.5vh;
     margin-bottom: 1vh;
+}
+
+
+/* Testimonials */
+#testimonials {
+    background-color: #231f20;
+    color: white;
+    padding: 10px;
+}
+
+#testimonials-body {
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+#testimonial-video {
+    width: 64vw;
+    height: 36vw;
+}
+
+#testimonials-count {
+    list-style: none;
+    text-indent: 0px;
+    padding: 0px;
+}
+
+.testimonials-count-item {
+    display: inline;
+    color: gray;
+    margin: 0px 5px 0px 5px;
+}
+
+
+/* About */
+#about-back-story {
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-item-container {
+    color: white;
+    padding: 5px;
+}
+
+.about-item-body {
+    background-color: #231f20;
+    padding: 10px;
 }
 
 

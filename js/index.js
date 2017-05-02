@@ -19,10 +19,10 @@ $(function() {
       var index = 0;
 
       var i = 0;
-      while(i < numberOfTestimonials - 1) {
-          var $newElement = $("<i class="fa fa-circle" id="testimonial-circle"></i>");
-          console.log("skipp");
-          $("#testimonials-count").append($newElement);
+
+      while(i < numberOfTestimonials) {
+          $("#testimonials-count").append('<li class="testimonials-count-item ' + i + '"><i class="fa fa-circle"></i></li>');
+
           i++;
       }
 
@@ -35,6 +35,16 @@ $(function() {
           $("#testimonial-name").text(json[index].name);
           $("#testimonial-organization").text(json[index].organization + ", ");
           $("#testimonial-role").text(json[index].role);
+
+          $("#testimonials-count ." + index).children().css("color", "white");
+
+          var prevIndex = index - 1;
+
+          if(prevIndex == - 1) {
+              prevIndex = numberOfTestimonials - 1;
+          }
+
+          $("#testimonials-count ." + prevIndex).children().css("color", "gray");
 
           index++;
 
