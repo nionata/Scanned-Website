@@ -13,6 +13,12 @@ $(function() {
     }
   });
 
+  $(".about-item-body").hover(function() {
+      $(this).find(".about-item-content").slideDown();
+  }, function() {
+      $(this).find(".about-item-content").slideUp();
+  });
+
   $.getJSON("https://jsonblob.com/api/jsonBlob/ffc80ef0-2f66-11e7-ae4c-4766b1558729", function(json) {
 
       var numberOfTestimonials = Object.keys(json).length;

@@ -145,12 +145,6 @@ body {
 
 
 /* About */
-#about-back-story {
-    text-align: justify;
-    width: 70%;
-    margin: 0 auto;
-}
-
 .about-item-container {
     color: white;
     padding: 5px;
@@ -159,6 +153,10 @@ body {
 .about-item-body {
     background-color: #231f20;
     padding: 10px;
+}
+
+.about-item-content {
+    text-align: justify;
 }
 
 
