@@ -145,6 +145,10 @@ body {
 
 
 /* About */
+#about {
+  padding-bottom: 30px;
+}
+
 .about-item-container {
     color: white;
     padding: 5px;
