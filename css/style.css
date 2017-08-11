@@ -73,19 +73,21 @@ body {
     color: lightgrey;
 }
 
-#top-features-btn {
-    background-color: #231f20;
-    color: white;
-    border: 1px solid lightgrey;
-    padding: 2vw 4vw 2vw 4vw;
-    margin: 1vw;
+#top h2 {
+  margin-bottom: 5%;
 }
 
-#top-beta-btn {
+#top-features-btn {
     background-color: #e54413;
     color: white;
-    padding: 2vw 4vw 2vw 4vw;
+    padding: 1vw 2vw 1vw 2vw;
     margin: 1vw;
+    margin-top: 5%;
+}
+
+#top-store-btn {
+  height: 45px;
+  width: 150px;
 }
 
 
@@ -161,7 +163,7 @@ body {
 
 .about-item-content {
     text-align: justify;
-    color: #e54413;
+    color: white;
 }
 
 

@@ -34,7 +34,7 @@ $(function() {
 
       newTestimonial()
 
-      setInterval(newTestimonial, 5000);
+      setInterval(newTestimonial, 15000);
 
       function newTestimonial() {
           $("#testimonial-quote").text(json[index].quote);
