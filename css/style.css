@@ -116,6 +116,34 @@ body {
 }
 
 
+/* Getting Started */
+#started {
+  background-color: #e54413;
+  color: white;
+}
+
+.selected-btn {
+  background-color: white;
+  color: #e54413;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+.unselected-btn {
+  background-color: transparent;
+  border: white solid 1px;
+  color: white;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+#started-btn-group-1 {
+  text-align: right;
+}
+
+#started-btn-group-2 {
+  text-align: left;
+}
+
+
 /* Testimonials */
 #testimonials {
     background-color: #231f20;

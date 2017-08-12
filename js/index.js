@@ -81,7 +81,6 @@ $(window).scroll(function() {
         $("#nav").removeClass("nav-bar-shadow");
         $("#nav-info").slideUp();
         $("#nav-logo").addClass("nav-logo-trans");
-
         $("#product-right").slideUp();
     }
 });
