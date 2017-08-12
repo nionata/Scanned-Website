@@ -59,6 +59,28 @@ $(function() {
           }
       }
   });
+
+  $("#started-btn-member").click(function() {
+    $("#started-member").removeClass("hidden");
+    $("#started-manager").addClass("hidden");
+
+    $("#started-btn-member").removeClass("unselected-btn");
+    $("#started-btn-member").addClass("selected-btn");
+
+    $("#started-btn-manager").removeClass("selected-btn");
+    $("#started-btn-manager").addClass("unselected-btn");
+  });
+
+  $("#started-btn-manager").click(function() {
+    $("#started-manager").removeClass("hidden");
+    $("#started-member").addClass("hidden");
+
+    $("#started-btn-member").removeClass("selected-btn");
+    $("#started-btn-member").addClass("unselected-btn");
+
+    $("#started-btn-manager").removeClass("unselected-btn");
+    $("#started-btn-manager").addClass("selected-btn");
+  });
 });
 
 //Allows for smooth scrolling when clicking links

@@ -39,6 +39,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right" hidden="true" id="nav-info">
                     <li><a href="#product" class="nav-me">Product</a></li>
+                    <li><a href="#started" class="nav-me">Get Started</a></li>
                     <li><a href="#testimonials" class="nav-me">Testimonials</a></li>
                     <li><a href="#about" class="nav-me">About</a></li>
                 </ul>
@@ -81,25 +82,45 @@
           <h2>Get Started Now</h2>
           <hr class="under-heading-white" />
           <div class="row">
-            <div class="col-md-6" id="started-btn-group-1">
-              <button class="btn btn-lg selected-btn">I manage a group, club, or event</button>
+            <div class="col-sm-6" id="started-btn-group-1">
+              <button class="btn btn-lg selected-btn" id="started-btn-manager">I manage a group, club, or event</button>
             </div>
-            <div class="col-md-6" id="started-btn-group-2">
-              <button class="btn btn-lg unselected-btn">I attend events and meetings</button>
+            <div class="col-sm-6" id="started-btn-group-2">
+              <button class="btn btn-lg unselected-btn" id="started-btn-member">I attend events and meetings</button>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="started-manager">
             <div class="col-md-4">
               <h4>Step 1:</h4>
-                <p>Download our app</p>
+              <i class="fa fa-download fa-4x"></i>
+              <p>Download our app and create a free account</p>
             </div>
             <div class="col-md-4">
               <h4>Step 2:</h4>
-              <p>Create a free account</p>
+              <i class="fa fa-plus fa-4x"></i>
+              <p>Create a group from the "Groups" tab in-app</p>
             </div>
             <div class="col-md-4">
-              <h4>Step 3</h4>
-              <p>Create a group on the app</p>
+              <h4>Step 3:</h4>
+              <i class="fa fa-shopping-cart fa-4x"></i>
+              <p>Pay an invoice sent via email and you're all set</p>
+            </div>
+          </div>
+          <div class="row hidden" id="started-member">
+            <div class="col-md-4">
+              <h4>Step 1:</h4>
+              <i class="fa fa-download fa-4x"></i>
+              <p>Download our app and create a free account</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Step 2:</h4>
+              <i class="fa fa-camera fa-4x"></i>
+              <p>Scan your group's qr code using the scanner in-app</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Step 3:</h4>
+              <i class="fa fa-calendar fa-4x"></i>
+              <p>Now you are in that group and will see future events</p>
             </div>
           </div>
         </div>
